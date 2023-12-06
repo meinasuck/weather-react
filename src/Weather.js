@@ -12,10 +12,10 @@ export default function Weather() {
     event.preventDefault();
     setMessage(
       <ul>
-        <li>Temperature:{weather.temperature}°C</li>
-        <li>Description:{weather.description}</li>
-        <li>Humidity:{weather.humidity}%</li>
-        <li>Wind:{weather.wind}km/h</li>
+        <li>Temperature: {weather.temperature}°C</li>
+        <li>Description: {weather.description}</li>
+        <li>Humidity: {weather.humidity}%</li>
+        <li>Wind: {weather.wind}km/h</li>
         <li>
           <img src={weather.icon} alt="Weather Icon"></img>
         </li>
